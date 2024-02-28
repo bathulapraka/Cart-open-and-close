@@ -54,3 +54,32 @@
   
   background-color:rgba(0, 0, 0, 0.548);
 }
+.All-dummy-items{
+  margin-left: 13%;
+  
+  position: relative;
+  top: 13vh;
+  left: 5%;
+  width: 60%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+  outline: none;
+  list-style-type: none;
+  border-bottom: 2x solid black;
+
+  
+}
+.All{
+  background-color: rgba(0, 0, 0, 0.759);
+}
+.data{
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.699);
+  font-family:'Times New Roman', Times, serif;
+}
+.Amount{
+  color: #8a2b06;
+}

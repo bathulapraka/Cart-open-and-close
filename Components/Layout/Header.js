@@ -3,6 +3,7 @@ import meals from "../Images/Meals1.avif";
 import "../Layout/Header.css";
 import Headercart from "./HeaderCart";
 import Paragraph from "../Summary/Summary";
+import Dummy from "./Dummy Items";
 const Header = (props) => {
   return (
     <>
@@ -15,7 +16,7 @@ const Header = (props) => {
         <img src={meals} alt="Food-items" className="Meals1"></img>
         <Paragraph />
       </div>
-     
+      <Dummy />
     </>
   );
 };
