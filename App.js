@@ -1,14 +1,24 @@
+  // App component
+  import "./App.css";
+  import { useState } from "react";
+  import Header from "./Components/Layout/Header";
+  import CartItems from "./Components/Cart/Cart";
 
-import './App.css';
-import Header from './Components/Layout/Header';
-import CartItems from './Components/Cart/Cart';
-function App() {
-  return (
-   <div>
-    <CartItems/>
-   <Header/>
-   </div>
-  );
-};
+  function App() {
+    const [Click, Setclick] = useState(false);
 
-export default App;
+    const shown = () => {
+      Setclick(true);
+    };
+    const Notshow = () => {
+      Setclick(false);
+    };
+    return (
+      <div>
+        {Click && <CartItems Onclose={Notshow}/>}
+        <Header Showing={shown}  /> 
+      </div>
+    );
+  }
+
+  export default App;

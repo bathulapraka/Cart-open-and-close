@@ -4,12 +4,13 @@ import "../Layout/Header.css";
 import Headercart from "./HeaderCart";
 import Paragraph from "../Summary/Summary";
 import Dummy from "./Dummy Items";
+
 const Header = (props) => {
   return (
     <>
       <header className="Header-things">
-        <h1>Restaurent</h1>
-        <Headercart />
+        <h1>Restaurant</h1>
+        <Headercart onClick={props.Showing} /> 
       </header>
 
       <div>

@@ -1,9 +1,10 @@
 import React from "react";
 import Cart from "../CartIcon/CartSVG";
 import "../Layout/Header.css";
-const Headercart = (props) => {
+
+const Headercart = (props) => { 
   return (
-    <button className="Cart-icon">
+    <button className="Cart-icon" onClick={props.onClick}>
       <span className="svg-cart">
         <Cart />
       </span>

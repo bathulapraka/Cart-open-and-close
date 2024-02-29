@@ -51,12 +51,12 @@
 
   width: 220px;
   height: 50px;
-  
-  background-color:rgba(0, 0, 0, 0.548);
+
+  background-color: rgba(0, 0, 0, 0.548);
 }
-.All-dummy-items{
+.All-dummy-items {
   margin-left: 13%;
-  
+
   position: relative;
   top: 13vh;
   left: 5%;
@@ -70,39 +70,38 @@
   outline: none;
   list-style-type: none;
   border-bottom: 2x solid black;
-   margin-bottom: 20px;
-  
+  margin-bottom: 20px;
 }
-.All{
+.All {
   background-color: rgba(0, 0, 0, 0.759);
 }
-.data{
+.data {
   border-bottom: 0.2px solid rgba(0, 0, 0, 0.699);
   /* margin-bottom : 100px; */
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-.Amount{
+.Amount {
   color: #8a2b06;
 }
-.All-adding-items{
-  position:  relative;
+.All-adding-items {
+  position: relative;
   margin-left: 50%;
   top: -16vh;
 }
 
-.All-adding-items h2{
+.All-adding-items h2 {
   margin-left: 260px;
   margin-bottom: -25px;
 }
-.All-adding-items input{
+.All-adding-items input {
   margin-left: 400px;
 
   top: 24px;
   width: 25px;
 }
 
-.All-dummy-items button{
-  margin-left: 310px; 
+.All-dummy-items button {
+  margin-left: 310px;
   margin-top: 20px;
   padding: 10px;
   width: 140px;
@@ -111,7 +110,38 @@
   border-radius: 20px;
   color: white;
 }
-.Total{
-  margin-left: 400px;
-  color: red;
+.Total {
+  color: black;
+  font-size: 20px;
+}
+.All-backdrop h1 {
+  margin-bottom: 5px;
+}
+.All-backdrop h3 {
+  margin-left: 80%;
+  padding: 8px;
+  margin-bottom: -10px;
+ height: -20px;
+}
+
+.button-backdrop {
+  margin-left: 70%;
+}
+.button2 {
+  margin-left: 20px;
+  padding: 8px;
+  width: 80px;
+  border-radius: 30px;
+}
+.button1 {
+  padding: 8px;
+  width: 80px;
+  border-radius: 30px;
+}
+.button1:hover {
+  background-color: #8a2b06;
+}
+
+.button2:hover {
+  background-color: #8a2b06;
 }

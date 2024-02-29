@@ -1,6 +1,6 @@
-import React from "react";
 import Modal from "../UI/Cart Modal";
-import "../Layout/Header.css"
+import "../Layout/Header.css";
+
 const CartItems = (props) => {
   const arritems = (
     <ul>
@@ -13,19 +13,21 @@ const CartItems = (props) => {
         },
       ].map((item) => (
         <li>{item.name}</li>
-      ))}  
+      ))}
     </ul>
   );
   return (
-    <Modal>
+    <Modal Onclose={props.Onclose}>
       {arritems}
-      <div >
-        <span className="Total">Total Amount</span>
-        <span>30.76</span>
+      <div className="All-backdrop">
+        <h1 className="Total">Total Amount</h1>
+        <h3 className="Amount">30.76</h3>
       </div>
-      <div>
-        <button>Close</button>
-        <button>Order</button>
+      <div className="button-backdrop">
+        <button className="button1" onClick={props.Onclose}>
+          Close
+        </button>
+        <button className="button2">Order</button>
       </div>
     </Modal>
   );

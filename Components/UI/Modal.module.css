@@ -14,6 +14,8 @@
     left: 5%;
     width: 90%;
     background-color: white;
+    font-size: 25px;
+   
     padding: 1rem;
     border-radius: 14px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
@@ -21,10 +23,7 @@
     animation: slide-down 300ms ease-out forwards;
   }
   
- .Total{
-    margin-left: 400px;
-    color: red;
- }
+
   .modal ul,
   .modal ol {
     list-style-type: none;
